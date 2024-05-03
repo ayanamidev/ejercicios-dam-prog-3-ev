@@ -1,0 +1,8 @@
+Introduce 10 numeros enteros:
+
+- Escribe el numero a buscar: 3
+- El numero 3 aparece 2 veces en el array 
+- Quieres buscar otro numero? (s/n): s
+- Escribe el num...
+- El numero 5 no aparece en el array
+- Quieres...?

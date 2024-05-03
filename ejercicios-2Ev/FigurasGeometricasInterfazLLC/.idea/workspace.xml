@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cb91534-8d07-4792-8c82-955e98ce785d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/01-HolaMundo/01-HolaMundo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/02-HolaUsuario/02-HolaUsuario.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/03-ParImpar/03-ParImpar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/04-ComprobarEdad/04-ComprobarEdad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/06-NumeroAleatorio/06-NumeroAleatorio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/07-SumaNumeros/07-SumaNumeros.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/08-NumerosEnterosOrdenados/08-NumerosEnterosOrdenados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/09-AdivinaNumero/09-AdivinaNumero.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/10-Calculadora/10-Calculadora.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/11-ConversorMonedas/11-ConversorMonedas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/12-CuentaBancaria/12-CuentaBancaria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/13-FigurasGeometricas/13-FigurasGeometricas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/14-OperacionesMatematicas/14-OperacionesMatematicas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/15-OrdenarMayorMenor/15-OrdenarMayorMenor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/16-ValidadorFechas/16-ValidadorFechas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/24-FicherosAAF/24-FicherosAAF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/25-Empleados/25-Empleados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/25-Empleados/Ejemplo/src/com/liceolapaz/des/jprf/jprf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/25-Empleados/Ejemplo/src/com/liceolapaz/des/jprf/out/production/jprf/com/liceolapaz/des/jprf/jprf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/26-Usuarios/26-Usuarios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Calculadora2/Calculadora2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Estasi/Estasi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Examen1AAF/Examen1AAF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Examen2AAF/Examen2AAF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Examen3AAF/Examen3AAF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Libreria/CalculadoraInterfaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CARPETA ALEX EJERCICIOS/Liceo-Java-main/Matrices/Matrices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/ARRAY/ARRAY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/ARRAY/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/AdivinaNumeroLlc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/AlmacenamientoNumerosPositivos/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/ConvertirCadena_A_Numero/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/ConvertirNumero_A_String/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/Convertir_Cadena_A_Minusculas/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/Examen1LLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/FECHAS/FECHAS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/FECHAS/src/com/licelapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/GenerarNumerosRandom/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/IncrementarDecrementar/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/IntroduceNumeros/IntroduceNumeros.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/IntroduceNumeros/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosAleatoriosDeMenorAMayor/NumerosAleatoriosDeMenorAMayor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosAleatoriosDeMenorAMayor/src/des/liceolapaz/com/llc/Princiapal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosBinarios/NumerosBinarios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosBinarios/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/OrdenarNumerosEnterosPositivos/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/PiedraPapelTijera/PiedraPapelTijera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/PiedraPapelTijera/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE2_NumeroAleatorio/RE2_NumeroAleatorio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE2_NumeroAleatorio/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_AdivinaNumeroLLC/RE_AdivinaNumeroLLC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_AdivinaNumeroLLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_CalculadoraLLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_ConversorMonedasLLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_CuentaBancariaLLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_OperacionesMatematicasLLC/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_OrdenarNumerosPositivos/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/RE_RE_CuentaBancaria/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/calcularLetraDNI/calcularLetraDNI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/calcularLetraDNI/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/contadorVocales/contadorVocales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/contadorVocales/src/com/liceolapaz/de/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/dadoAleatorio/dadoAleatorio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/dadoAleatorio/src/com/licelapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculadoraInterfazLLC/src/com/liceolapaz/des/llc/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculadoraInterfazLLC/src/com/liceolapaz/des/llc/Entero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculadoraInterfazLLC/src/com/liceolapaz/des/llc/Numero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculadoraInterfazLLC/src/com/liceolapaz/des/llc/Racional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversorMonedasHerenciaLLC/src/com/liceolapaz/des/llc/Conversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversorMonedasHerenciaLLC/src/com/liceolapaz/des/llc/Dolar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversorMonedasHerenciaLLC/src/com/liceolapaz/des/llc/Libra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversorMonedasHerenciaLLC/src/com/liceolapaz/des/llc/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversorMonedasHerenciaLLC/src/com/liceolapaz/des/llc/Yen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CuentaBancariaHerenciaLLC/src/com/liceolapaz/des/llc/Cajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CuentaBancariaHerenciaLLC/src/com/liceolapaz/des/llc/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CuentaBancariaHerenciaLLC/src/com/liceolapaz/des/llc/CuentaNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CuentaBancariaHerenciaLLC/src/com/liceolapaz/des/llc/CuentaPremium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/FiguraGeometrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/Pentagono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/liceolapaz/des/llc/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosPositivos/src/com/liceolapaz/des/llc/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PRIMER TRIMESTRE/NumerosPositivos/src/com/liceolapaz/des/llc/Principal.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2bAQr05kct8120Iy8ozbfqLaJ7y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cb91534-8d07-4792-8c82-955e98ce785d" name="Changes" comment="" />
+      <created>1705655600188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705655600188</updated>
+    </task>
+    <servers />
+  </component>
+</project>
