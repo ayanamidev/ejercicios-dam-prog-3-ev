@@ -3,7 +3,6 @@ package com.liceolapaz.des;
 import java.io.*;
 import java.util.Scanner;
 
-import static com.liceolapaz.des.llc.Principal.crearArchivoBinario;
 
 public class index {
     public static void main(String[] args) throws IOException {
@@ -73,7 +72,7 @@ public class index {
             System.out.println("");
         } catch (IOException e) {
             System.out.println("Error al escribir datos en el fichero: "+e.getMessage());
-            bos.write(new byte[0]);
+          ;
         }
     }
 
