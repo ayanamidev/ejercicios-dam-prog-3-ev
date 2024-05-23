@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.Scanner;
 
 
+
+
 public class index {
     public static void main(String[] args) throws IOException {
         menu();
@@ -41,6 +43,12 @@ public class index {
                             String rutaOrigenBinario=leerString();
                             System.out.println("Escriba la ruta del fichero destino:");
                             String rutaDestinoBinario=leerString();
+                            byte[]contenidoBinario=leerFicheroBinario(rutaOrigenBinario);
+                            if (contenidoBinario!=null){
+                                copiarFicheroBinario(rutaDestinoBinario,contenidoBinario);
+                            }
+
+
 
                             break;
                     }
@@ -61,18 +69,107 @@ public class index {
         }
     }
 
+    private static void copiarFicheroBinario(String rutaDestinoBinario, byte[] contenidoBinario) {
+        File fichero=new File(rutaDestinoBinario);
+        if (fichero.isFile()){
+
+            try{
+                FileOutputStream fos=new FileOutputStream(fichero);//crea o abre un ficheor binario
+                BufferedOutputStream bos=new BufferedOutputStream(fos);
+                bos.write(contenidoBinario);
+                bos.close();
+            }catch (FileNotFoundException e){
+                System.out.println("Error al abrir el archivo");
+            }catch (IOException ex){
+                System.out.println("Error al escribir el fichero");
+            }
+
+
+
+        }else {
+            System.out.println("El fichero destino no existe");
+        }
+
+
+    }
+
+    private static byte[] leerFicheroBinario(String rutaOrigenBinario) {
+        File fichero=new File(rutaOrigenBinario);
+        if (fichero.isFile()){
+
+            try {
+                FileInputStream fis=new FileInputStream(fichero);//INPUT!!! operaciones de lectura de datos
+                BufferedInputStream bis=new BufferedInputStream(fis);
+                byte []buffer=new byte[1024];
+                byte[]contenidoBinario=new byte[(int)fichero.length()];
+                //La clase file utiliza por default el dato long para representar el tamaño de un archivo
+                //Si queremos usar lenght hay que hacer un cast explicito a int
+                int bytesleidos=bis.read(buffer);
+
+                    int posicion=0;
+                    while (bytesleidos!=-1){
+                        for (int i=0;i<bytesleidos;i++){
+                            contenidoBinario[posicion]=buffer[i];
+                            posicion++;
+
+                        }
+                        bytesleidos=bis.read();
+
+                    }
+                    if (posicion==0){
+                        System.out.println("El fichero esta vacío.");
+                        return null;
+                    }else {
+                        return contenidoBinario;
+                    }
+
+
+
+
+
+            } catch (FileNotFoundException e) { //el archivo que se intenta abrir no se encuentra en la ubicacion especifica
+                //Sale del FileInputStream
+                System.out.println("La ruta "+ rutaOrigenBinario+" no existe");
+                return null;
+
+            } catch (IOException e) { //problema al leer el fichero
+                //Sale del metodo .read() de BufferedInputStream
+                System.out.println("Error al leer el fichero");
+                return null;
+            }
+
+        }else {
+            System.out.println("La ruta "+rutaOrigenBinario+" no es un fichero");
+            return  null;
+        }
+    }
+
+
+
     private static void crearArchivoBinario(String rutaArchivoBinario, byte [] datosBinarios) {
+        BufferedOutputStream bos=null;
         try{
-            FileOutputStream fos=new FileOutputStream(rutaArchivoBinario);//crea el arhico si no existe y si existe abre el archivo
-            BufferedOutputStream bos=new BufferedOutputStream(fos);//utilizmaos un buffer porque mejora el rendimiento
+            FileOutputStream fos=new FileOutputStream(rutaArchivoBinario);//crea el arhico si no existe y para escribir datos en el
+            bos=new BufferedOutputStream(fos);//utilizmaos un buffer porque mejora el rendimiento
             bos.write(datosBinarios);
+            bos.close();//IMPORTANTISIMO, SI NO SE CIERRA NO ESCRIBE NADA
 
         }catch (FileNotFoundException e){
             //El nombre del archivo es invalido/el directorio no existe/no hay permisos parar crear o abrir el archivo
-            System.out.println("");
+            System.out.println("Error al crear el archivo");
         } catch (IOException e) {
             System.out.println("Error al escribir datos en el fichero: "+e.getMessage());
-          ;
+            if (bos!=null){
+                try{
+                    bos.write(new byte[0]);
+                }catch (IOException ex){
+                    System.out.println("Error al borrar el contenido del archivo");
+
+                }
+            }
+
+
+
         }
     }
 
