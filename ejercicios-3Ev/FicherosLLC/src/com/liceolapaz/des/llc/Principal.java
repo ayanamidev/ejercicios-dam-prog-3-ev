@@ -59,6 +59,13 @@ public class Principal {
                 String rutaDirectorio=leerString();
                 listarArchivos(rutaDirectorio);
                     break;
+                case 4: {
+                    System.out.println("Escriba el nombre del fichero: ");
+                    String nombreArchivo = leerString();
+                    String rutaArchivoBinario="C:\\Users\\laura\\Desktop\\"+nombreArchivo+".bin";
+
+                }
+                    break;
                 case 0:System.exit(0);
                     break;
                 default:
@@ -68,6 +75,8 @@ public class Principal {
         }while (true);
 
     }
+
+
 
     private static void listarArchivos(String rutaDirectorio) {
 
@@ -164,6 +173,7 @@ public class Principal {
         }catch (IOException e){
             System.out.println("Error al escribir el fichero");
         }
+
     }
 
     private static void pedirRutaDestino() {
@@ -222,6 +232,8 @@ public class Principal {
             }catch (IOException e){
                 return null;
 
+            }catch(SecurityException e){
+                return null;
             }
 
             /*
@@ -260,6 +272,7 @@ public class Principal {
                 1. Leer fichero de texto
                 2.Copiar fichero
                 3. Listar archivos de directorio
+                4.Crear fichero binario 
                 0. Salir
                 Escoja una opcion:
                 """);
